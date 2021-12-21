@@ -1,0 +1,153 @@
+{
+  "siteName": "aya.gg",
+  "title": "%s - aya.gg",
+  "languages": {
+    "ko-KR": "한국어",
+    "en-US": "English",
+    "ja-JP": "日本語"
+  },
+  "unit": {
+    "second": "{{count}} seconde",
+    "second_plural": "{{count}} secondes",
+    "route": "{{count}} itinéraire",
+    "route_plural": "{{count}} itinéraires"
+  },
+  "glossary": {
+    "ranking": "Rang",
+    "level": "Niveau",
+    "playerName": "Nom de Joueur",
+    "tiers": {
+      "none": "Non Classé",
+      "iron": "Fer",
+      "bronze": "Bronze",
+      "silver": "Argent",
+      "gold": "Or",
+      "platinum": "Platine",
+      "diamond": "Diamant",
+      "demigod": "Titan",
+      "eternity": "Immortel"
+    },
+    "tiersShort": {
+    },
+    "queueTypes": {
+    },
+    "gameType": {
+    },
+    "armorCategory": {
+    },
+    "itemCategory": {
+    },
+    "statCategory": {
+    },
+    "subcategories": {
+    }
+  },
+  "global": {
+    "error": {
+    }
+  },
+  "header": {
+    "nav": {
+    }
+  },
+  "footer": {
+  },
+  "index": {
+  },
+  "route": {
+    "characterWeaponModal": {
+    },
+    "errr": {
+      "setting": {
+      },
+      "result": {
+      }
+    },
+    "recommendation": {
+    },
+    "craftBoard": {
+      "tooltip": {
+      }
+    },
+    "mapBoard": {
+      "options": {
+        "showGatherItem": {
+        },
+        "routeHighlight": {
+        },
+        "showAreaItemCount": {
+        }
+      }
+    }
+  },
+  "characters": {
+    "subPages": {
+    },
+    "tierOptions": {
+    },
+    "range": {
+    },
+    "matchup": {
+    },
+    "metrics": {
+      "deathHeatMap": {
+        "timePoint": {
+        }
+      }
+    },
+    "metricsTrend": {
+    },
+    "route": {
+    },
+    "skill": {
+    }
+  },
+  "itemSearchBox": {
+  },
+  "players": {
+    "widgetModal": {
+      "informationTypeOptions": {
+      },
+      "backgroundTypeOptions": {
+      }
+    },
+    "seasonTab": {
+    },
+    "detail": {
+    }
+  },
+  "database": {
+    "items": {
+    }
+  },
+  "leaderboard": {
+    "mmr": {
+    },
+    "artisan": {
+    }
+  },
+  "doubleSidedVariationChart": {
+    "event": {
+    },
+    "tooltip": {
+    }
+  },
+  "widget": {
+  },
+  "masteryImprovement": {
+  },
+  "itemTooltip": {
+  },
+  "textTooltip": {
+  },
+  "tierBadge": {
+  },
+  "characterPicker": {
+  },
+  "internalBanner": {
+    "route": {
+    }
+  },
+  "stats": {
+  }
+}
