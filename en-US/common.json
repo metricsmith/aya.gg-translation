@@ -1,0 +1,453 @@
+{
+  "siteName": "aya.gg",
+  "title": "%s - aya.gg",
+  "languages": {
+    "ko-KR": "한국어",
+    "en-US": "English",
+    "ja-JP": "日本語"
+  },
+  "unit": {
+    "second": "{{count}} second",
+    "second_plural": "{{count}} seconds",
+    "route": "{{count}} route",
+    "route_plural": "{{count}} routes"
+  },
+  "glossary": {
+    "ranking": "Rank",
+    "level": "Level",
+    "playerName": "Player Name",
+    "skill": "Skill",
+    "tier": "Tier",
+    "mostPick": "Most Picks",
+    "artisan": "Artisanship",
+    "eternityCutoff": "Immortal Cut-off",
+    "allCharacter": "All",
+    "character": "Character",
+    "characterLevel": "Level",
+    "winRate": "Win %",
+    "pickRate": "Pick %",
+    "halfRate": "Avg. Rank %",
+    "perishRate": "Perish %",
+    "averageRank": "Avg. Rank",
+    "averageKill": "Avg. Kill",
+    "averageKillAssistant": "Avg. Kill + Assist",
+    "dpm": "DPM",
+    "playTime": "Play Time",
+    "playCount": "Plays",
+    "freeCharacters": "Weekly Character Rotation",
+    "winRateContribution": "Win Rate Contrib.",
+    "halfRateContribution": "Avg. Rank % Contrib.",
+    "deltaMMRContribution": "MMR Change Contrib.",
+    "tiers": {
+      "none": "Unranked",
+      "iron": "Iron",
+      "bronze": "Bronze",
+      "silver": "Silver",
+      "gold": "Gold",
+      "platinum": "Platinum",
+      "diamond": "Diamond",
+      "demigod": "Titan",
+      "eternity": "Immortal"
+    },
+    "tiersShort": {
+      "none": "U",
+      "iron": "Ir",
+      "bronze": "Br",
+      "silver": "Si",
+      "gold": "Go",
+      "platinum": "Pl",
+      "diamond": "Di",
+      "demigod": "Ti",
+      "eternity": "Im"
+    },
+    "queueType": "Queue Type",
+    "queueTypes": {
+      "all": "All",
+      "solo": "Solo",
+      "duo": "Duo",
+      "trio": "Squad"
+    },
+    "gameType": {
+      "normal": "Normal",
+      "rank": "Ranked"
+    },
+    "armorCategory": {
+      "weapon": "Weapon",
+      "chest": "Chest",
+      "head": "Head",
+      "arm": "Arm",
+      "leg": "Leg",
+      "trinket": "Accessory"
+    },
+    "itemCategory": {
+      "Weapon": "Weapon",
+      "Armor": "Armor",
+      "Consumable": "Consumable",
+      "Special": "Special",
+      "Misc": "Misc."
+    },
+    "statCategory": {
+      "Attack": "Attack",
+      "Skill": "Skill",
+      "Defense": "Defense",
+      "Misc": "Other"
+    },
+    "subcategories": {
+      "else": "Other"
+    }
+  },
+  "global": {
+    "notEnoughSamples": "N/A",
+    "close": "Close",
+    "retry": "Retry",
+    "selectAll": "Select all",
+    "deselectAll": "Deselect all",
+    "playerSearchPlaceholder": "Search a player",
+    "error": {
+      "short": "Oops!",
+      "tryAgainLater": "Please try again after a while.",
+      "somethingsWrong": "There was something wrong with our website. Please contact us if the problem persists.",
+      "inMaintenance": "Sorry! It's under maintenance.",
+      "erServerError": "There was something wrong with the Eternal Return API server."
+    }
+  },
+  "header": {
+    "nav": {
+      "leaderboard/mmr": "MMR Ranking",
+      "leaderboard/artisan": "Artisanship Ranking",
+      "players": "Record",
+      "database": "Database",
+      "database/items": "Item Database",
+      "route": "Route Simulator",
+      "characters": "Characters",
+      "erwi2021": "ERWI 2021"
+    }
+  },
+  "footer": {
+    "contact": "Contact"
+  },
+  "index": {
+    "title": "Eternal Return Informatics",
+    "description": "Eternal Return information, statistics, automated route simulator, item database, ranking, leaderboard, tier, guides",
+    "ogDescription": "Statistics, character tiers, route simulator, and item database of Eternal Return, at a single glance",
+    "characterTiers": "Ranked Solo Character Tiers",
+    "soloRankLeaderboard": "Ranked Solo Leaderboard"
+  },
+  "route": {
+    "title": "Route Simulator",
+    "description": "Eternal Return automated route simulator, inventory check, solo, duo, squad route simulation",
+    "shareButton": "Share",
+    "recentlyShared": "URL copied",
+    "selectCharacterDefault": "Select a character",
+    "route": "Route",
+    "routeNumeric": "Zone {{number}}",
+    "characterWeaponModal": {
+      "title": "Character & Weapon Selection"
+    },
+    "deleteConfirm": "Are you sure you want to reset?",
+    "errr": {
+      "button": "Generate Routes",
+      "buttonLoading": "Now working…",
+      "buttonMaintaining": "Under maintenance",
+      "pleaseSetCharacters": "Please choose both a character and a weapon.",
+      "setting": {
+        "button": "Options",
+        "partsPreference": "Preference",
+        "areaCondition": "Areas to Visit"
+      },
+      "result": {
+        "failed": "Failed to generate routes.",
+        "performance": "Generated $t(routeCount, { \"count\": {{unit.route}} }) for $t(seconds, { \"count\": {{unit.second}} }).",
+        "isSubItemsVisible": "Show intermediate items",
+        "bestRoutes": "Recommendations",
+        "otherRoutes": "Others"
+      }
+    },
+    "recommendation": {
+      "foods": "Foods",
+      "beverages": "Beverages",
+      "traps": "Traps",
+      "armors": "Build-able items through this route",
+      "armorsDescription": "Set up your route and click the items below to equip. The item with the same category will be replaced.",
+      "defaultContent": "Set up your route"
+    },
+    "craftBoard": {
+      "title": "Route Information",
+      "showDetail": "Show Details",
+      "equipped": "Equipments",
+      "inventory": "Inventory",
+      "search": "Search Materials",
+      "gather": "Harvesting / Hunting Materials",
+      "tooltip": {
+        "inventory": "Only necessary items are counted.",
+        "inventoryOver": "More than ten items are necessary at this moment"
+      }
+    },
+    "mapBoard": {
+      "options": {
+        "showGatherItem": {
+          "title": "Search Materials Visibility",
+          "none": "None",
+          "onlyMe": "Only Mine",
+          "team": "All"
+        },
+        "routeHighlight": {
+          "title": "Route Highlight",
+          "onlyMe": "Only Mine",
+          "team": "All"
+        },
+        "showAreaItemCount": {
+          "title": "Total Number of Items",
+          "on": "On",
+          "off": "Off"
+        }
+      }
+    }
+  },
+  "characters": {
+    "title": "Characters",
+    "titleWithCharacter": "{{ queueType }} {{ character }} - Characters",
+    "description": "Eternal Return character statistics including tier, matchups, skill orders, routes, item preferences, win rates, and more...",
+    "descriptionWithCharacter": "{{ queueType }} {{ character }} statistics including tier, matchups, skill orders, routes, item preferences, win rates, and more...",
+    "overall": "Overall",
+    "weaponAndCharacter": "Character / Weapon",
+    "statisticsRange": "Range",
+    "statisticsRange3Days": "Ranked matches in recent 3 days",
+    "statisticsRangeGameVersion": "Ranked matches in {{ gameVersion }}",
+    "lastUpdate": "Last Update",
+    "moreButton": "More",
+    "subPages": {
+      "overview": "Overview",
+      "matchup": "Matchups",
+      "metrics": "Metrics",
+      "metricsTrend": "Metrics Trend",
+      "route": "Route & Items",
+      "skill": "Skill Orders"
+    },
+    "tierOptions": {
+      "t": "TOP 1000",
+      "a": "All",
+      "u": "Platinum or over",
+      "l": "Under Platinum"
+    },
+    "range": {
+      "3d": "Recent 3 days",
+      "version": "{{version}}"
+    },
+    "matchup": {
+      "centerDescription": "Character / Kill Ratio",
+      "averageKill": "Average kills : {{averageKill}}",
+      "adventageous": "Adventageous",
+      "disadventageous": "Disadventageous",
+      "notEnoughSamples": "N/A (ease the conditions for more samples)"
+    },
+    "metrics": {
+      "averageDeltaMMR": "Avg. MMR\nChange",
+      "rank": "{{rank, ordinal}}",
+      "rankTotalCount": "/ {{totalCount}}",
+      "earlyDeathArea": "Early Death Areas",
+      "killerTop3InArea": "Killer TOP 3",
+      "showDeathMapAll": "See Full Death Map",
+      "detail": "Metrics",
+      "deathHeatMap": {
+        "title": "Death Map",
+        "description": "This is the map showing when, where, and by whom the character is killed. Be aware of the killers below.\nOnly the three most killers are shown in the map.",
+        "timePoint": {
+          "all": "All",
+          "e": "Early(~5 min.)",
+          "m": "Mid(5~10 min.)",
+          "l": "Late(10~ min.)"
+        }
+      }
+    },
+    "metricsTrend": {
+      "all": "All",
+      "summaryDescription": "Take a look at the variation of the character's tier, pick rate, and win rate over recent 30 days.\nThe effect of each patch will be reflected after 3~4 days."
+    },
+    "route": {
+      "summaryDescription": "The tendency may differ from the actual one since only shared routes are collected.",
+      "description": "The tendency may differ from the actual one since only shared routes are collected.",
+      "count": "{{count}} times",
+      "representativeEquipments": "Equipments",
+      "first3area": "First 3 Areas"
+    },
+    "skill": {
+      "summaryDescription": "The win rates and average rank percentages below are usually higher than the overall metrics\nsince the samples here do not include matches under character level 10.",
+      "description": "The win rates and average rank percentages below are usually higher than the overall metrics\nsince the samples here do not include matches under character level 10.",
+      "averageDPM": "Average DPM"
+    }
+  },
+  "itemSearchBox": {
+    "anySubcategory": "All Categories",
+    "anyItemOptions": "All Options",
+    "anyItemSkills": "All Item Skills",
+    "searchPlaceholder": "Search..."
+  },
+  "players": {
+    "title": "{{name}} - Player",
+    "playerNotFound": "We could not find the player: {{name}}",
+    "matchEmpty": "No matches found!",
+    "connectionFailed": "Failed to connect.",
+    "recentUpdateDate": "Updated",
+    "requestUpdate": "Update",
+    "inMaintaining": "Updation is in maintenance...",
+    "noPlayRecordShort": "No records",
+    "openWidgetModal": "Live Widget",
+    "widgetModal": {
+      "title": "Live Widget",
+      "description": "This is a widget displaying your current tier minutely for your live streaming. Use this with a straming software like OBS or XSplit.",
+      "windowSizeDescription": "Suggested minimum size : 240 x 140(px)",
+      "options": "Options",
+      "informationType": "Information",
+      "informationTypeOptions": {
+        "account": "Tier",
+        "accountAndRecent3Matches": "Tier + Last 3 matches"
+      },
+      "backgroundType": "Background",
+      "backgroundTypeOptions": {
+        "tier": "Tier",
+        "halfTransparent": "Translucent black"
+      },
+      "preview": "Preview",
+      "copyURL": "Copy"
+    },
+    "seasonTab": {
+      "every": "All",
+      "rankSeason": "Season {{seasonNumber}}",
+      "rankPreseason": "Preseason {{seasonNumber}}",
+      "normal": "Normal"
+    },
+    "hourPostfix": "{{hour}} hours",
+    "cannotCalculate": "N/A",
+    "rankInPlacement": "In placement",
+    "rankPercentage": "TOP {{percentage}}%",
+    "rankPercentagePrefix": "TOP",
+    "notEnoughSamples": "N/A",
+    "totalWins": "Wins",
+    "rank": "{{rank, ordinal}}",
+    "totalDeal": "Damage",
+    "detail": {
+      "notEnoughSamplesToCalculate": "Not enough samples to be calculated.",
+      "noPlayerData": "No information. Please search this player.",
+      "averageMMRDifferencePrefix": "My MMR",
+      "averageMMR": "Average MMR",
+      "averageExpGain": "Average EXP gain",
+      "match": "Match overall",
+      "rank": "Rank",
+      "name": "Player",
+      "mmr": "MMR",
+      "routeId": "Route ID",
+      "noRouteIdOfStart": "Private Route",
+      "totalDeal": "Damage",
+      "equipments": "Equipments",
+      "matchVersion": "Version",
+      "matchId": "Match ID",
+      "playerKilledMe": "Killed me",
+      "iKilledPlayer": "Slain by me",
+      "playerKilledTeammate": "Killed an ally",
+      "teammateKilledPlayer": "Slain by an ally",
+      "killedWickline": "Wickline",
+      "killedAlpha": "Alpha",
+      "killedOmega": "Omega",
+      "deadByWildAnimal": "Slain by an animal",
+      "gaveUp": "Gave up"
+    }
+  },
+  "database": {
+    "title": "Database",
+    "items": {
+      "title": "Item Database",
+      "description": "Eternal Return item options, descriptions, statistics, pick rate, win rate",
+      "itemTree": "Recipe",
+      "charactersUsing": "Frequently Using Characters",
+      "pleaseSelectItem": "Please choose an item.",
+      "noItemMatchCondition": "No items"
+    }
+  },
+  "leaderboard": {
+    "playCountWithUnit": "{{count}}\nGames",
+    "mmr": {
+      "title": "MMR Ranking",
+      "description": "Eternal Return solo, duo, squad MMR ranking, TOP players, Immortal MMR",
+      "top1": "TOP 1",
+      "top200": "TOP 200",
+      "top1000": "TOP 1000",
+      "mostPickDistributionRange": "Character/Weapon of TOP {{start}}~{{end}} Players"
+    },
+    "artisan": {
+      "title": "Artisanship Ranking",
+      "description": "Eternal Return solo, duo, squad artisanship ranking"
+    }
+  },
+  "doubleSidedVariationChart": {
+    "inactive": "N/A",
+    "inactiveMMR": "N/A",
+    "event": {
+      "version": "{{version}} PATCH"
+    },
+    "tooltip": {
+      "characterWeapon": "{{characterWeapon}} / {{metrics}}: {{value}}",
+      "mmrFlow": "Last MMR: {{last}} (max.: {{max}}, min.: {{min}})"
+    }
+  },
+  "widget": {
+    "playerNotFound": "No such player",
+    "recent3Matches": "Last 3 matches",
+    "nextAutoUpdate": "Update in {{time, seconds}}",
+    "updating": "Updating..."
+  },
+  "masteryImprovement": {
+    "average": "Average",
+    "different": " ",
+    "perMinute": "{{number}}/min."
+  },
+  "itemTooltip": {
+    "gather": "Harvest",
+    "monster": "Hunt",
+    "area": "Area",
+    "supply": "Air supply",
+    "specificCharacterOnly": "Only {{name}} can make this",
+    "maxStackCount": "Max quantity",
+    "initialCount": "Initial quantity",
+    "buildsInto": "Builds into",
+    "bulletCapacity": "Max ammunition",
+    "bulletCapacityValue": "{{count}}",
+    "chargeCapacity": "Max charges",
+    "chargeCapacityValue": "{{count}} (recharge: {{chargeTime, seconds}})"
+  },
+  "textTooltip": {
+    "tier": "The tier represents how powerful and popular the character is, considering its several metrics such as win rate, average rank percentage, kills, MMR changes, and perish rate. It may differ even if the character is identical according to the range of the samples.",
+    "perishRate": "The perish rate represents how much the character dies often from early in the games, considering its several metrics such as game duration, weapon level, kills.",
+    "halfRate": "The average rank percentage represents the player's normalized rank in a match. If a player's average rank percentage is 50%, it means the average rank is 9.5th, 5th, or 3.5th in solo, duo, or squad, respectively.",
+    "artisan": "The artisanship score represents how much the character was used by the player in higher MMR matches. Unlike MMR, this never decreases.",
+    "dpmToCharacter": "The DPM(damage per minute) represents the damage dealt to other players per minute."
+  },
+  "tierBadge": {
+    "op": "OP",
+    "up": "RIP",
+    "a": "Expert",
+    "lowUniquePlayers": "< {{lowCutoff}}",
+    "lowUniquePlayersTooltip": "The metrics were calculated with matches of only {{count}} players,\nwhich means it can easily be biased towards the playstyle of each player."
+  },
+  "characterPicker": {
+    "searchPlaceholder": "Search...",
+    "statisticsNotAvailable": "Not enough data to be analyzed."
+  },
+  "internalBanner": {
+    "route": {
+      "first": "\"How I wish I could build my route just by choosing items I want to make!\"",
+      "second": "\"Will my route make me suffer from inventory or not?\"",
+      "thirdBefore": "The answer is in ",
+      "thirdStrong": "[Route Simulator]",
+      "thirdAfter": "",
+      "letsgo": "Let's go"
+    }
+  },
+  "stats": {
+    "trapPower": "Trap damage",
+    "hpRecover": "HP regen",
+    "spRecover": "SP regen",
+    "attackPowerByBuff": "Attack power",
+    "defenseByBuff": "Defense"
+  }
+}

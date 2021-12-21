@@ -1,0 +1,447 @@
+{
+  "siteName": "aya.gg",
+  "title": "%s - aya.gg",
+  "languages": {
+    "ko-KR": "한국어",
+    "en-US": "English",
+    "ja-JP": "日本語"
+  },
+  "glossary": {
+    "ranking": "순위",
+    "playerName": "플레이어 이름",
+    "skill": "스킬",
+    "tier": "티어",
+    "mostPick": "모스트 캐릭터",
+    "artisan": "장인력",
+    "level": "레벨",
+    "eternityCutoff": "이터니티 컷",
+    "allCharacter": "전체",
+    "character": "실험체",
+    "characterLevel": "레벨",
+    "winRate": "승률",
+    "pickRate": "픽률",
+    "halfRate": "반타작률",
+    "perishRate": "폐사율",
+    "averageRank": "평균 순위",
+    "averageKill": "평균 킬",
+    "averageKillAssistant": "평균 킬 + 어시",
+    "dpm": "DPM",
+    "playTime": "플레이 시간",
+    "playCount": "플레이 횟수",
+    "freeCharacters": "로테이션",
+    "winRateContribution": "평균 대비 승률",
+    "halfRateContribution": "평균 대비 반타작률",
+    "deltaMMRContribution": "평균 대비 MMR 변화량",
+    "tiers": {
+      "none": "언랭크",
+      "iron": "아이언",
+      "bronze": "브론즈",
+      "silver": "실버",
+      "gold": "골드",
+      "platinum": "플래티넘",
+      "diamond": "다이아몬드",
+      "demigod": "데미갓",
+      "eternity": "이터니티"
+    },
+    "tiersShort": {
+      "none": "언",
+      "iron": "아",
+      "bronze": "브",
+      "silver": "실",
+      "gold": "골",
+      "platinum": "플",
+      "diamond": "다",
+      "demigod": "데미",
+      "eternity": "이터"
+    },
+    "queueType": "큐 타입",
+    "queueTypes": {
+      "all": "모두",
+      "solo": "솔로",
+      "duo": "듀오",
+      "trio": "스쿼드"
+    },
+    "gameType": {
+      "normal": "일반",
+      "rank": "랭크"
+    },
+    "armorCategory": {
+      "weapon": "무기",
+      "chest": "옷",
+      "head": "머리",
+      "arm": "팔",
+      "leg": "다리",
+      "trinket": "장식"
+    },
+    "itemCategory": {
+      "Weapon": "무기",
+      "Armor": "방어구",
+      "Consumable": "소비",
+      "Special": "특수",
+      "Misc": "기타"
+    },
+    "statCategory": {
+      "Attack": "공격",
+      "Skill": "스킬",
+      "Defense": "방어",
+      "Misc": "기타"
+    },
+    "subcategories": {
+      "else": "그 외"
+    }
+  },
+  "global": {
+    "notEnoughSamples": "표본부족",
+    "close": "닫기",
+    "retry": "다시 시도",
+    "selectAll": "모두 선택",
+    "deselectAll": "모두 해제",
+    "playerSearchPlaceholder": "플레이어 검색",
+    "error": {
+      "short": "문제 발생",
+      "tryAgainLater": "잠시 후 다시 시도해주세요.",
+      "somethingsWrong": "무언가 잘못되었습니다. 이 상태가 지속된다면 문의를 남겨주세요.",
+      "inMaintenance": "점검중입니다.",
+      "erServerError": "이터널 리턴 API 서버와 통신 중 문제가 발생했습니다."
+    }
+  },
+  "header": {
+    "nav": {
+      "leaderboard/mmr": "MMR 랭킹",
+      "leaderboard/artisan": "장인 랭킹",
+      "players": "전적",
+      "database": "도감",
+      "database/items": "아이템 도감",
+      "route": "루트 시뮬레이터",
+      "characters": "실험체 분석",
+      "erwi2021": "ERWI 2021"
+    }
+  },
+  "footer": {
+    "contact": "문의"
+  },
+  "index": {
+    "title": "이터널 리턴 전적검색",
+    "description": "이터널 리턴 전적검색, 루트 시뮬레이터, 아이템, 랭킹, 순위표, 티어, 공략, 가이드",
+    "ogDescription": "이터널 리턴 전적검색, 통계, 캐릭터 티어, 루트 시뮬레이터, 도감을 한곳에서",
+    "characterTiers": "솔로 실험체 티어",
+    "soloRankLeaderboard": "솔로 랭크 순위표"
+  },
+  "route": {
+    "title": "루트 시뮬레이터",
+    "description": "이터널 리턴 루트 시뮬레이터, 자동 완성, 아이템창 확인, 솔로, 듀오, 스쿼드 루트 제작",
+    "shareButton": "공유하기",
+    "recentlyShared": "URL 복사됨",
+    "selectCharacterDefault": "실험체를 선택하세요",
+    "route": "루트",
+    "routeNumeric": "{{number}}루트",
+    "characterWeaponModal": {
+      "title": "실험체 / 무기 선택"
+    },
+    "deleteConfirm": "실험체와 루트, 아이템을 삭제하시겠습니까?",
+    "errr": {
+      "button": "루트 자동 생성",
+      "buttonLoading": "일하는 중…",
+      "buttonMaintaining": "점검 중",
+      "pleaseSetCharacters": "실험체와 무기를 모두 선택하세요.",
+      "setting": {
+        "button": "설정",
+        "partsPreference": "부위별 우선도",
+        "areaCondition": "방문 지역 조건"
+      },
+      "result": {
+        "failed": "루트 계산에 실패했습니다.",
+        "performance": "{{seconds}}초 동안 {{routeCount}}가지 루트를 계산했습니다.",
+        "isSubItemsVisible": "하위 아이템 표시",
+        "bestRoutes": "추천 루트",
+        "otherRoutes": "그 외"
+      }
+    },
+    "recommendation": {
+      "foods": "추천 음식",
+      "beverages": "추천 음료",
+      "traps": "추천 트랩",
+      "armors": "이 루트에서 제작 가능한 장비",
+      "armorsDescription": "루트를 지정하고 아이템 아이콘을 눌러서 장착하세요. 같은 카테고리의 아이템이 있다면 교체됩니다.",
+      "defaultContent": "루트를 선택하세요"
+    },
+    "craftBoard": {
+      "title": "루트 정보",
+      "showDetail": "자세히 보기",
+      "equipped": "장비",
+      "inventory": "인벤토리",
+      "search": "탐색 재료",
+      "gather": "채집 / 사냥 재료",
+      "tooltip": {
+        "inventory": "인벤토리 숫자는 필요한 아이템만 셉니다.",
+        "inventoryOver": "인벤토리의 필요한 아이템이 10칸을 넘었습니다."
+      }
+    },
+    "mapBoard": {
+      "options": {
+        "showGatherItem": {
+          "title": "수집할 아이템 표시",
+          "none": "없음",
+          "onlyMe": "나만",
+          "team": "팀 전체"
+        },
+        "routeHighlight": {
+          "title": "루트 강조",
+          "onlyMe": "나만",
+          "team": "팀 전체"
+        },
+        "showAreaItemCount": {
+          "title": "지역 아이템 수",
+          "on": "켜기",
+          "off": "끄기"
+        }
+      }
+    }
+  },
+  "characters": {
+    "title": "실험체 분석",
+    "titleWithCharacter": "{{ queueType }} {{ character }} - 실험체 분석",
+    "description": "이터널 리턴의 실험체별 티어, 상성, 스킬트리, 루트, 아이템과 픽률, 폐사율, 승률 등 여러 지표를 한눈에 확인하세요.",
+    "descriptionWithCharacter": "{{ queueType }} {{ character }}의 티어, 상성, 스킬트리, 루트, 아이템과 픽률, 폐사율, 승률 등 여러 지표를 한눈에 확인하세요.",
+    "overall": "모든 실험체",
+    "weaponAndCharacter": "무기 / 실험체",
+    "statisticsRange": "통계 수집 범위",
+    "statisticsRange3Days": "최근 3일 랭크 게임 전체",
+    "statisticsRangeGameVersion": "{{ gameVersion }} 랭크 게임 전체",
+    "lastUpdate": "최근 업데이트",
+    "moreButton": "더보기",
+    "subPages": {
+      "overview": "개요",
+      "matchup": "솔로 기준 상성",
+      "metrics": "지표",
+      "metricsTrend": "지표 동향",
+      "route": "루트 + 아이템",
+      "skill": "스킬"
+    },
+    "tierOptions": {
+      "t": "상위 1000명",
+      "a": "전체",
+      "u": "플래티넘 이상",
+      "l": "플래티넘 미만"
+    },
+    "range": {
+      "3d": "최근 3일",
+      "version": "{{version}} 전체"
+    },
+    "matchup": {
+      "centerDescription": "실험체 / 킬 비율",
+      "averageKill": "평균 킬 : {{averageKill}}",
+      "adventageous": "상대적으로 유리",
+      "disadventageous": "상대적으로 불리",
+      "notEnoughSamples": "표본부족 (더 넓은 분석 대상을 선택해보세요)"
+    },
+    "metrics": {
+      "averageDeltaMMR": "평균 MMR\n변화량",
+      "rank": "{{rank}}위",
+      "rankTotalCount": "/ {{totalCount}}",
+      "earlyDeathArea": "초반 사망 지역",
+      "killerTop3InArea": "이 지역 천적 TOP 3",
+      "showDeathMapAll": "전체 데스맵 보기",
+      "detail": "상세 지표",
+      "deathHeatMap": {
+        "title": "데스맵",
+        "description": "어떤 타이밍에, 어디에서, 누구에게 잘 죽는지 시각화한 지도입니다. 아래 지도의 실험체들을 조심하세요.\n이 실험체를 자주 죽이는 비율 상위 3위까지 표시됩니다.",
+        "timePoint": {
+          "all": "모두",
+          "e": "초반(~5분)",
+          "m": "중반(5분~10분)",
+          "l": "후반(10분~)"
+        }
+      }
+    },
+    "metricsTrend": {
+      "all": "전체",
+      "summaryDescription": "최근 1달 동안 실험체의 티어·픽률·승률이 어떻게 변화했는지 알아보세요.\n매 패치 이후의 지표는 통계에 반영되기까지 3~4일 정도 지연되어 나타납니다."
+    },
+    "route": {
+      "summaryDescription": "공유된 루트를 선택해 플레이한 경기만 계산되므로 실제 경향과 다를 수 있습니다.\n개요에서는 픽률 상위 4개만 표시됩니다.",
+      "description": "공유된 루트를 선택해 플레이한 경기만 계산되므로 실제 경향과 다를 수 있습니다.",
+      "count": "{{count}}회",
+      "representativeEquipments": "대표 아이템",
+      "first3area": "처음 3지역"
+    },
+    "skill": {
+      "summaryDescription": "스킬 트리와 다른 지표의 상관관계를 알아보세요.\n10레벨을 달성한 실험체 스킬 트리만 계산되므로 승률과 반타작률이 전체에 비해 높게 집계됩니다.\n개요에서는 픽률 상위 3개만 표시됩니다.",
+      "description": "10레벨을 달성한 실험체의 스킬 트리만 계산되므로 승률과 반타작률이 전체에 비해 높게 집계됩니다.",
+      "averageDPM": "평균 DPM"
+    }
+  },
+  "itemSearchBox": {
+    "anySubcategory": "전체 카테고리",
+    "anyItemOptions": "전체 아이템 옵션",
+    "anyItemSkills": "아이템 스킬 있음/없음",
+    "searchPlaceholder": "아이템 검색"
+  },
+  "players": {
+    "title": "{{name}} - 전적",
+    "playerNotFound": "플레이어를 찾을 수 없습니다: {{name}}",
+    "matchEmpty": "플레이 기록 없음!",
+    "connectionFailed": "연결에 실패했습니다.",
+    "recentUpdateDate": "최근 전적 갱신",
+    "requestUpdate": "전적 갱신",
+    "inMaintaining": "전적 갱신 점검 중...",
+    "noPlayRecordShort": "전적 없음",
+    "openWidgetModal": "방송용 위젯 열기",
+    "widgetModal": {
+      "title": "방송용 위젯 설정",
+      "description": "1분마다 자동으로 업데이트되는 방송용 위젯입니다. OBS / XSplit 등에 붙여 사용해보세요.",
+      "windowSizeDescription": "최소 권장 크기 : 240 x 140(px)",
+      "options": "옵션",
+      "informationType": "정보",
+      "informationTypeOptions": {
+        "account": "플레이어",
+        "accountAndRecent3Matches": "플레이어 + 최근 3경기"
+      },
+      "backgroundType": "배경",
+      "backgroundTypeOptions": {
+        "tier": "티어 색",
+        "halfTransparent": "검정 반투명"
+      },
+      "preview": "미리보기",
+      "copyURL": "위젯 URL 복사"
+    },
+    "seasonTab": {
+      "every": "모두",
+      "rankSeason": "시즌 {{seasonNumber}}",
+      "rankPreseason": "프리시즌 {{seasonNumber}}",
+      "normal": "일반"
+    },
+    "hourPostfix": "{{hour}}시간",
+    "cannotCalculate": "계산불가",
+    "rankInPlacement": "배치 중",
+    "rankPercentage": "상위 {{percentage}}%",
+    "rankPercentagePrefix": "상위",
+    "notEnoughSamples": "표본부족",
+    "totalWins": "승리",
+    "rank": "{{rank}}위",
+    "totalDeal": "피해량",
+    "detail": {
+      "notEnoughSamplesToCalculate": "표본이 부족해 계산할 수 없습니다.",
+      "noPlayerData": "전적 데이터가 없습니다. 플레이어를 검색하면 수집됩니다.",
+      "averageMMRDifferencePrefix": "내 MMR보다",
+      "averageMMR": "평균 MMR",
+      "averageExpGain": "평균 경험치 획득량",
+      "match": "매치 정보",
+      "rank": "순위",
+      "name": "이름",
+      "mmr": "MMR",
+      "routeId": "루트 ID",
+      "noRouteIdOfStart": "미공유 루트",
+      "totalDeal": "피해량",
+      "equipments": "장비",
+      "matchVersion": "버전",
+      "matchId": "게임 ID",
+      "playerKilledMe": "나를 죽임",
+      "iKilledPlayer": "내가 죽임",
+      "playerKilledTeammate": "팀원을 죽임",
+      "teammateKilledPlayer": "팀원이 죽임",
+      "killedWickline": "위클라인",
+      "killedAlpha": "알파",
+      "killedOmega": "오메가",
+      "deadByWildAnimal": "야생동물에게 죽음",
+      "gaveUp": "포기함"
+    }
+  },
+  "database": {
+    "title": "도감",
+    "items": {
+      "title": "아이템 도감",
+      "description": "이터널 리턴 아이템 스탯, 설명, 통계, 픽률, 승률",
+      "itemTree": "제작법",
+      "charactersUsing": "사용 캐릭터",
+      "pleaseSelectItem": "아이템을 선택해주세요.",
+      "noItemMatchCondition": "조건을 만족하는 아이템이 없습니다."
+    }
+  },
+  "leaderboard": {
+    "playCountWithUnit": "{{count}}회",
+    "mmr": {
+      "title": "MMR 랭킹",
+      "description": "이터널 리턴 솔로, 듀오, 스쿼드 랭킹, 1위, 이터니티 컷 MMR",
+      "top1": "1위",
+      "top200": "200위",
+      "top1000": "1000위",
+      "mostPickDistributionRange": "{{start}}위 ~ {{end}}위의 캐릭터/무기 분포"
+    },
+    "artisan": {
+      "title": "장인 랭킹",
+      "description": "이터널 리턴 솔로, 듀오, 스쿼드 장인 랭킹"
+    }
+  },
+  "doubleSidedVariationChart": {
+    "inactive": "최근 변동 없음",
+    "inactiveMMR": "최근 MMR 변동 없음",
+    "event": {
+      "version": "{{version}} 패치"
+    },
+    "tooltip": {
+      "characterWeapon": "{{characterWeapon}} / {{metrics}}: {{value}}",
+      "mmrFlow": "최종 MMR: {{last}} (최고: {{max}}, 최저: {{min}})"
+    }
+  },
+  "widget": {
+    "playerNotFound": "플레이어를 찾을 수 없습니다.",
+    "recent3Matches": "최근 3경기",
+    "nextAutoUpdate": "갱신까지 {{time, seconds}}",
+    "updating": "갱신중..."
+  },
+  "masteryImprovement": {
+    "average": "평소 수준",
+    "different": "평소보다 ",
+    "perMinute": "{{number}}/분"
+  },
+  "itemTooltip": {
+    "gather": "채집",
+    "monster": "사냥",
+    "area": "지역",
+    "supply": "항공 보급",
+    "specificCharacterOnly": "{{name}} 제작 가능",
+    "maxStackCount": "최대 수량",
+    "initialCount": "획득 수량",
+    "buildsInto": "상위 아이템",
+    "bulletCapacity": "장탄 수",
+    "bulletCapacityValue": "{{count}}발",
+    "chargeCapacity": "최대 충전 수",
+    "chargeCapacityValue": "{{count}}발(충전: {{chargeTime}}초)"
+  },
+  "textTooltip": {
+    "tier": "티어는 한 실험체가 얼마나 범용성이 있고 성능이 좋은지를 등급으로 나타낸 값으로, 승률, 평균 킬, 평균 반타작률, 평균 MMR 변화량, 폐사율 등의 데이터를 종합해 계산됩니다. 같은 실험체더라도 랭크 구간에 따라서 티어가 달라질 수 있습니다.",
+    "perishRate": "폐사율은 한 실험체가 성장을 덜 마친 채로 얼마나 쉽게 사망하는지를 확률로 나타낸 값으로, 게임 시간, 무기 레벨, 킬 수 등의 데이터를 종합해 계산됩니다.",
+    "halfRate": "반타작률은 한 경기를 플레이해서 받는 순위를 큐 종류에 영향이 없도록 정규화해 나타낸 값입니다. 평균 반타작률 50%가 나타내는 순위는 솔로 평균 9.5위, 듀오 평균 5위, 스쿼드 평균 3.5위입니다.",
+    "artisan": "장인력은 매 경기마다 플레이어가 활약한 정도에 비례해 누적되는 값으로, MMR과는 다르게 경기 결과가 좋지 않아도 값이 깎이지 않습니다. 상위 티어에서 플레이할수록 더 빠르게 누적됩니다.",
+    "dpmToCharacter": "DPM은 Damage Per Minute의 준말로, 실험체에게 입힌 분당 피해량을 나타냅니다."
+  },
+  "tierBadge": {
+    "op": "OP",
+    "up": "고인",
+    "a": "장인",
+    "lowUniquePlayers": "< {{lowCutoff}}명",
+    "lowUniquePlayersTooltip": "이 지표는 플레이어 {{count}}명의 플레이만 가지고 계산되었습니다.\n지표가 각 플레이어의 성향에 치중되기 쉬우니 주의해 주세요."
+  },
+  "characterPicker": {
+    "searchPlaceholder": "실험체 검색",
+    "statisticsNotAvailable": "이 실험체를 분석하기에 아직 표본이 충분하지 않습니다."
+  },
+  "internalBanner": {
+    "route": {
+      "first": "\"아이템만 넣으면 자동으로 루트를 만들 수는 없을까?\"",
+      "second": "\"이 루트, 아이템 칸이 부족하진 않을까?\"",
+      "thirdBefore": "지금 바로 ",
+      "thirdStrong": "[루트 시뮬레이터]",
+      "thirdAfter": " 접속!",
+      "letsgo": "바로가기"
+    }
+  },
+  "stats": {
+    "trapPower": "트랩 피해",
+    "hpRecover": "체력 재생",
+    "spRecover": "스태미너 재생",
+    "attackPowerByBuff": "공격력",
+    "defenseByBuff": "방어력"
+  }
+}

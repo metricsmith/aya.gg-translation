@@ -1,0 +1,447 @@
+{
+  "siteName": "aya.gg",
+  "title": "%s - aya.gg",
+  "languages": {
+    "ko-KR": "한국어",
+    "en-US": "English",
+    "ja-JP": "日本語"
+  },
+  "glossary": {
+    "ranking": "ランキング",
+    "playerName": "プレイヤー名",
+    "skill": "スキル",
+    "tier": "ティア",
+    "mostPick": "モスト実験体",
+    "artisan": "職人力",
+    "level": "レベル",
+    "eternityCutoff": "エターニティカット",
+    "allCharacter": "全体",
+    "character": "実験体",
+    "characterLevel": "レベル",
+    "winRate": "勝率",
+    "pickRate": "ピク率",
+    "halfRate": "半打作率",
+    "perishRate": "斃死率",
+    "averageRank": "平均順位",
+    "averageKill": "平均キル",
+    "averageKillAssistant": "平均キル+アシスト",
+    "dpm": "DPM",
+    "playTime": "プレイ時間",
+    "playCount": "プレイ回数",
+    "freeCharacters": "ウィークリートライアル",
+    "winRateContribution": "平均比勝率",
+    "halfRateContribution": "平均比半打作率",
+    "deltaMMRContribution": "平均比MMR変化量",
+    "tiers": {
+      "none": "アンランク",
+      "iron": "アイアン",
+      "bronze": "ブロンズ",
+      "silver": "シルバー",
+      "gold": "ゴールド",
+      "platinum": "プラチナム",
+      "diamond": "ダイヤモンド",
+      "demigod": "デミゴッド",
+      "eternity": "エターニティ"
+    },
+    "tiersShort": {
+      "none": "空",
+      "iron": "鉄",
+      "bronze": "銅",
+      "silver": "銀",
+      "gold": "金",
+      "platinum": "白金",
+      "diamond": "金剛",
+      "demigod": "半神",
+      "eternity": "永遠"
+    },
+    "queueType": "キュータイプ",
+    "queueTypes": {
+      "all": "すべて",
+      "solo": "ソロ",
+      "duo": "デュオ",
+      "trio": "スクワット"
+    },
+    "gameType": {
+      "normal": "一般",
+      "rank": "ランク"
+    },
+    "armorCategory": {
+      "weapon": "武器",
+      "chest": "服",
+      "head": "頭",
+      "arm": "腕",
+      "leg": "脚",
+      "trinket": "装具"
+    },
+    "itemCategory": {
+      "Weapon": "武器",
+      "Armor": "防具",
+      "Consumable": "飲食",
+      "Special": "特殊",
+      "Misc": "その他"
+    },
+    "statCategory": {
+      "Attack": "攻撃",
+      "Skill": "スキル",
+      "Defense": "防御",
+      "Misc": "その他"
+    },
+    "subcategories": {
+      "else": "その他"
+    }
+  },
+  "global": {
+    "notEnoughSamples": "標本不足",
+    "close": "閉じる",
+    "retry": "リトライ",
+    "selectAll": "すべて選択",
+    "deselectAll": "すべて解除",
+    "playerSearchPlaceholder": "プレイヤー検索",
+    "error": {
+      "short": "問題発生",
+      "tryAgainLater": "後ほどもう一度実行してください。",
+      "somethingsWrong": "何か間違っています。 この状態が続けば、お問い合わせください。",
+      "inMaintenance": "点検中です。",
+      "erServerError": "エターナルリターンAPIサーバーと通信中に問題が発生しました。"
+    }
+  },
+  "header": {
+    "nav": {
+      "leaderboard/mmr": "MMRランキング",
+      "leaderboard/artisan": "職人ランキング",
+      "players": "戦績",
+      "database": "図鑑",
+      "database/items": "アイテム図鑑",
+      "route": "ルートシミュレーター",
+      "characters": "実験体分析",
+      "erwi2021": "ERWI 2021"
+    }
+  },
+  "footer": {
+    "contact": "お問い合わせ"
+  },
+  "index": {
+    "title": "エターナルリターン戦績検索",
+    "description": "エターナルリターン戦績検索、ルートシミュレーター、アイテム、ランキング、順位表、ティア、攻略、ガイド",
+    "ogDescription": "エターナルリターン戦績検索、統計、実験体ティア、ルートシミュレーター、図鑑を一か所で",
+    "characterTiers": "ソロ実験体ティア",
+    "soloRankLeaderboard": "ソロランク順位表"
+  },
+  "route": {
+    "title": "ルートシミュレーター",
+    "description": "エターナルリターンルートシミュレーター、自動完成、インベントリ確認、ソロ、デュオ、スクワッドルート製作",
+    "shareButton": "共有",
+    "recentlyShared": "URLコピー完了",
+    "selectCharacterDefault": "実験体を選択してください。",
+    "route": "ルート",
+    "routeNumeric": "{{number}}ルート",
+    "characterWeaponModal": {
+      "title": "実験体/武器の選択"
+    },
+    "deleteConfirm": "実験体とルート、アイテムを削除しますか？",
+    "errr": {
+      "button": "ルート自動生成",
+      "buttonLoading": "処理中…",
+      "buttonMaintaining": "点検中",
+      "pleaseSetCharacters": "実験体と武器をすべて選択してください。",
+      "setting": {
+        "button": "設定",
+        "partsPreference": "部位別優先度",
+        "areaCondition": "訪問地域条件"
+      },
+      "result": {
+        "failed": "ルートの計算に失敗しました。",
+        "performance": "{{seconds}}秒間、{{routeCount}}ルートを計算しました。",
+        "isSubItemsVisible": "下位アイテム表示",
+        "bestRoutes": "おすすめ",
+        "otherRoutes": "その他"
+      }
+    },
+    "recommendation": {
+      "foods": "おすすめの食べ物",
+      "beverages": "おすすめの飲み物",
+      "traps": "おすすめのトラップ",
+      "armors": "このルートで製作可能な装備",
+      "armorsDescription": "ルートを指定してアイテムアイコンを押して装着してください。 同じカテゴリーのアイテムがあれば交換されます。",
+      "defaultContent": "ルートを選択してください。"
+    },
+    "craftBoard": {
+      "title": "ルート情報",
+      "showDetail": "詳細",
+      "equipped": "装備",
+      "inventory": "インベントリ",
+      "search": "探索材料",
+      "gather": "採集/狩り材料",
+      "tooltip": {
+        "inventory": "インベントリ数字は必要なアイテムだけ数えます。",
+        "inventoryOver": "インベントリの必要なアイテムが10間を超えました。"
+      }
+    },
+    "mapBoard": {
+      "options": {
+        "showGatherItem": {
+          "title": "収集するアイテムを表示",
+          "none": "なし",
+          "onlyMe": "自分",
+          "team": "チーム"
+        },
+        "routeHighlight": {
+          "title": "ルート強調",
+          "onlyMe": "自分",
+          "team": "チーム"
+        },
+        "showAreaItemCount": {
+          "title": "地域アイテム数",
+          "on": "オン",
+          "off": "オフ"
+        }
+      }
+    }
+  },
+  "characters": {
+    "title": "実験体分析",
+    "titleWithCharacter": "{{queueType}} {{character}} - 実験体分析",
+    "description": "エターナルリターンの実験体別ティア、相性、スキルビルド、ルート、アイテムとピック率、斃死率、勝率などいろいろな指標を一目で確認できます。",
+    "descriptionWithCharacter": "{{queueType}} {{character}}のティア、相性、スキルビルド、ルート、アイテムとピック率、斃死率、勝率などいろいろな指標を一目で確認できます。",
+    "overall": "すべての実験体",
+    "weaponAndCharacter": "武器 / 実験体",
+    "statisticsRange": "統計収集範囲",
+    "statisticsRange3Days": "最近の3日ランクゲーム全体",
+    "statisticsRangeGameVersion": "{{ gameVersion }} ランクゲーム全体",
+    "lastUpdate": "最近のアップデート",
+    "moreButton": "もっと見る",
+    "subPages": {
+      "overview": "概要",
+      "matchup": "ソロ基準相性",
+      "metrics": "指標",
+      "metricsTrend": "指標動向",
+      "route": "ルート+アイテム",
+      "skill": "スキル"
+    },
+    "tierOptions": {
+      "t": "上位1000人",
+      "a": "全体",
+      "u": "プラチナム以上",
+      "l": "プラチナム未満"
+    },
+    "range": {
+      "3d": "最近3日",
+      "version": "{{version}} 全体"
+    },
+    "matchup": {
+      "centerDescription": "実験体/キル比",
+      "averageKill": "平均キル:{{averageKill}}",
+      "adventageous": "相対的に有利",
+      "disadventageous": "相対的に不利",
+      "notEnoughSamples": "表本不足(より広い分析対象を選択してください)"
+    },
+    "metrics": {
+      "averageDeltaMMR": "平均MMR\n変化量",
+      "rank": "{{rank}}位",
+      "rankTotalCount": "/ {{totalCount}}",
+      "earlyDeathArea": "序盤死亡地域",
+      "killerTop3InArea": "この地域の天敵TOP 3",
+      "showDeathMapAll": "すべてのデスマップを見る",
+      "detail": "詳細指標",
+      "deathHeatMap": {
+        "title": "デスマップ",
+        "description": "どんなタイミングで、どこで、誰に死に安いかを視覚化した地図です。 以下の地図の実験体に気をつけてください。 この実験体をよく殺す比率上位3位まで表示されます。",
+        "timePoint": {
+          "all": "すべて",
+          "e": "序盤(~5分)",
+          "m": "中盤(5分~10分)",
+          "l": "終盤(10分~)"
+        }
+      }
+    },
+    "metricsTrend": {
+      "all": "すべて",
+      "summaryDescription": "最近1ヶ月間、実験体のティア·ピック率·勝率がどのように変化したのか見てみましょう。 パッチごとの以後の指標は、統計に反映されるまでに約3~4日遅れて表示されます。"
+    },
+    "route": {
+      "summaryDescription": "共有されたルートを選択してプレイしたマッチのみ計算されるため、実際の傾向とは違う場合があります。 概要では、ピック率上位4つだけが表示されます。",
+      "description": "共有されたルートを選択してプレイしたマッチのみ計算されるため、実際の傾向とは違う場合があります。",
+      "count": "{{count}}回",
+      "representativeEquipments": "代表アイテム",
+      "first3area": "最初の3地域"
+    },
+    "skill": {
+      "summaryDescription": "スキルビルドと他の指標の相関関係を確認しましょう。 レベル10を達成した実験体スキルビルドのみ計算されるので、勝率と半打作率が全体に比べて高く集計されます。 概要では、ピック率上位3つだけが表示されます。",
+      "description": "レベル10を達成した実験体のスキルビルドのみ計算されるので、勝率と半打作率が全体に比べて高く集計されます。",
+      "averageDPM": "平均DPM"
+    }
+  },
+  "itemSearchBox": {
+    "anySubcategory": "全カテゴリ",
+    "anyItemOptions": "全アイテムオプション",
+    "anyItemSkills": "アイテムスキルあり/なし",
+    "searchPlaceholder": "アイテム検索"
+  },
+  "players": {
+    "title": "{{name}} - 戦績",
+    "playerNotFound": "プレイヤーが見つかりません: {{name}}",
+    "matchEmpty": "プレイ記録なし！",
+    "connectionFailed": "接続に失敗しました。",
+    "recentUpdateDate": "最近の戦績更新",
+    "requestUpdate": "戦績更新",
+    "inMaintaining": "戦績更新点検中…",
+    "noPlayRecordShort": "戦績なし",
+    "openWidgetModal": "放送用ウィジェットを開く",
+    "widgetModal": {
+      "title": "放送用ウィジェット設定",
+      "description": "1分ごとに自動アップデートされる放送用ウィジェットです。OBSやXSplitなどに付けてご使用ください。",
+      "windowSizeDescription": "最低限のウィジェットのレゾリューション: 240x140(px)",
+      "options": "オプション",
+      "informationType": "情報",
+      "informationTypeOptions": {
+        "account": "プレイヤー",
+        "accountAndRecent3Matches": "プレイヤー + 最近の3マッチ"
+      },
+      "backgroundType": "背景",
+      "backgroundTypeOptions": {
+        "tier": "ティア色",
+        "halfTransparent": "黒の半透明"
+      },
+      "preview": "プレビュー",
+      "copyURL": "ウィジェットURLコピー"
+    },
+    "seasonTab": {
+      "every": "すべて",
+      "rankSeason": "シーズン {{seasonNumber}}",
+      "rankPreseason": "プレシーズン {{seasonNumber}}",
+      "normal": "一般"
+    },
+    "hourPostfix": "{{hour}}時間",
+    "cannotCalculate": "計算不可",
+    "rankInPlacement": "配置中",
+    "rankPercentage": "上位{{percentage}}%",
+    "rankPercentagePrefix": "上位",
+    "notEnoughSamples": "標本不足",
+    "totalWins": "勝利",
+    "rank": "{{rank}}位",
+    "totalDeal": "ダメージ量",
+    "detail": {
+      "notEnoughSamplesToCalculate": "標本が不足して計算できません。",
+      "noPlayerData": "戦績データがありません。 プレイヤーを検索すると収集できます。",
+      "averageMMRDifferencePrefix": "自分のMMRより",
+      "averageMMR": "平均MMR",
+      "averageExpGain": "平均経験値獲得量",
+      "match": "マッチ情報",
+      "rank": "順位",
+      "name": "プレイヤー名",
+      "mmr": "MMR",
+      "routeId": "ルートID",
+      "noRouteIdOfStart": "未共有ルート",
+      "totalDeal": "ダメージ量",
+      "equipments": "装備",
+      "matchVersion": "バージョン",
+      "matchId": "マッチID",
+      "playerKilledMe": "あなた殺し",
+      "iKilledPlayer": "あなたに死ぬ",
+      "playerKilledTeammate": "相棒殺し",
+      "teammateKilledPlayer": "相模に死ぬ",
+      "killedWickline": "ウィクライン",
+      "killedAlpha": "アルファ",
+      "killedOmega": "オメガ",
+      "deadByWildAnimal": "野生動物に死ぬ",
+      "gaveUp": "やめる"
+    }
+  },
+  "database": {
+    "title": "図鑑",
+    "items": {
+      "title": "アイテム図鑑",
+      "description": "エターナルリターンアイテム スタット、説明、統計、ピック率、勝率",
+      "itemTree": "製作レシピ",
+      "charactersUsing": "使用する実験体",
+      "pleaseSelectItem": "アイテムを選択してください。",
+      "noItemMatchCondition": "条件を満たすアイテムがありません。"
+    }
+  },
+  "leaderboard": {
+    "playCountWithUnit": "{{count}}回",
+    "mmr": {
+      "title": "MMRランキング",
+      "description": "エターナルリターンのソロ、デュオ、スクワッドランキング 1位、エターニティカットMMR",
+      "top1": "1位",
+      "top200": "200位",
+      "top1000": "1000位",
+      "mostPickDistributionRange": "{{start}}位~{{end}}位の実験体·武器分布"
+    },
+    "artisan": {
+      "title": "職人ランキング",
+      "description": "エターナルリターンのソロ、デュオ、スクワッド職人ランキング"
+    }
+  },
+  "doubleSidedVariationChart": {
+    "inactive": "最近変動なし",
+    "inactiveMMR": "最近MMR変動なし",
+    "event": {
+      "version": "{{version}} パッチ"
+    },
+    "tooltip": {
+      "characterWeapon": "{{characterWeapon}} / {{metrics}}: {{value}}",
+      "mmrFlow": "最終MMR: {{last}} (最高: {{max}}、最低: {{min}})"
+    }
+  },
+  "widget": {
+    "playerNotFound": "プレイヤーを見つけません。",
+    "recent3Matches": "最近3マッチ",
+    "nextAutoUpdate": "更新まであと {{time, seconds}}",
+    "updating": "更新中..."
+  },
+  "masteryImprovement": {
+    "average": "ふだん程度",
+    "different": "ふだんより",
+    "perMinute": "{{number}}/分"
+  },
+  "itemTooltip": {
+    "gather": "採集",
+    "monster": "狩り",
+    "area": "地域",
+    "supply": "港空補給",
+    "specificCharacterOnly": "{{name}} 制作可能",
+    "maxStackCount": "最大数量",
+    "initialCount": "獲得数量",
+    "buildsInto": "上位アイテム",
+    "bulletCapacity": "装弾数",
+    "bulletCapacityValue": "{{count}}発",
+    "chargeCapacity": "最大チャージ数",
+    "chargeCapacityValue": "{{count}}発(チャージ:{{chargeTime}}秒)"
+  },
+  "textTooltip": {
+    "tier": "ティアは実験体がどれだけ汎用性があり性能が良いかを等級で示した数値で、勝率、平均キル、平均半打作率、平均MMR変化量、斃死率などのデータを総合して計算します。同じ実験体でもランク区間によってティアが変わることがあります。",
+    "perishRate": "斃死率は実験体が成長をまだ終えなかったままでどれだけよく死亡するかを確率で表した数値で、マッチ時間、武器レベル、キル数などのデータを総合して計算します。",
+    "halfRate": "半打作率は、1マッチプレイしてもらう順位をキューの種類に影響がないように正規化して表した数値です。 平均半打作率50%が示す順位は、ソロ平均9.5位、デュオ平均5位、スクワッド平均3.5位です。",
+    "artisan": "職人力はマッチごと、プレイヤーの活躍度合いに比例して積める数値で、MMRとは違い、マッチ結果が悪くても数値を下げません。上位ティアでプレイするほど、より早く積めます。",
+    "dpmToCharacter": "DPMは「Damage per minute」の略語で、実験体に与えた一分間のダメージ量を示します。"
+  },
+  "tierBadge": {
+    "op": "OP",
+    "up": "故人",
+    "a": "職人",
+    "lowUniquePlayers": "< {{lowCutoff}}人",
+    "lowUniquePlayersTooltip": "この指標はプレイヤー{{count}}人のプレイだけで計算されました。 指標が各プレイヤーの性向に偏りやすいので注意してください。"
+  },
+  "characterPicker": {
+    "searchPlaceholder": "実験体検索",
+    "statisticsNotAvailable": "この実験体を分析するのにまだ標本が十分ではありません。"
+  },
+  "internalBanner": {
+    "route": {
+      "first": "「アイテムだけ入れれば自動でルートを作りたい！」",
+      "second": "「このルート、インベントリが足りないのでは？」",
+      "thirdBefore": "今すぐ",
+      "thirdStrong": "[ルートシミュレータ]",
+      "thirdAfter": "へ！",
+      "letsgo": "見に行く"
+    }
+  },
+  "stats": {
+    "trapPower": "トラップダメージ",
+    "hpRecover": "体力再生",
+    "spRecover": "スタミナ再生",
+    "attackPowerByBuff": "攻撃力",
+    "defenseByBuff": "防御力"
+  }
+}
