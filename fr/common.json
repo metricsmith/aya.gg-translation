@@ -1,0 +1,452 @@
+{
+  "siteName": "aya.gg",
+  "title": "%s - aya.gg",
+  "languages": {
+    "ko-KR": "ko",
+    "en-US": "en",
+    "ja-JP": "ja",
+    "fr-FR": "fr"
+  },
+  "unit": {
+    "second": "{{count}} seconde",
+    "second_plural": "{{count}} secondes",
+    "route": "{{count}} itinéraire",
+    "route_plural": "{{count}} itinéraires"
+  },
+  "glossary": {
+    "ranking": "Rang",
+    "level": "Niveau",
+    "playerName": "Nom de Joueur",
+    "skill": "Compétence",
+    "tier": "Tier",
+    "mostPick": "Plus Joué",
+    "artisan": "Expérience",
+    "eternityCutoff": "Cut-off Immortel ",
+    "allCharacter": "Tous",
+    "character": "Personnages",
+    "characterLevel": "Niveau",
+    "winRate": "% Vict.",
+    "pickRate": "% Joué",
+    "halfRate": "%Class Moy.",
+    "perishRate": "% Mortalité",
+    "averageRank": "Class Moy.",
+    "averageKill": "Élim. Moy.",
+    "averageKillAssistant": "Élim. + Assist. Moy.",
+    "dpm": "DPM",
+    "playTime": "Temps de Jeu",
+    "playCount": "Parties",
+    "freeCharacters": "Rotation hebdomadaire de personnages",
+    "winRateContribution": "Taux de Contrib. à la Victoire ",
+    "halfRateContribution": "Taux de Contrib. au Classement",
+    "deltaMMRContribution": "Contrib. aux Changements de MMR",
+    "tiers": {
+      "none": "Non Classé",
+      "iron": "Fer",
+      "bronze": "Bronze",
+      "silver": "Argent",
+      "gold": "Or",
+      "platinum": "Platine",
+      "diamond": "Diamant",
+      "demigod": "Titan",
+      "eternity": "Immortel"
+    },
+    "tiersShort": {
+      "none": "NC",
+      "iron": "F",
+      "bronze": "Br",
+      "silver": "Ar",
+      "gold": "Or",
+      "platinum": "Pl",
+      "diamond": "Di",
+      "demigod": "Ti",
+      "eternity": "Im"
+    },
+    "queueType": "Mode de Jeu",
+    "queueTypes": {
+      "all": "Tout",
+      "solo": "Solo",
+      "duo": "Duo",
+      "trio": "Escouade"
+    },
+    "gameType": {
+      "normal": "Normal",
+      "rank": "Classé"
+    },
+    "armorCategory": {
+      "weapon": "Arme",
+      "chest": "Buste",
+      "head": "Tête",
+      "arm": "Bras",
+      "leg": "Jambe",
+      "trinket": "Accessoire"
+    },
+    "itemCategory": {
+      "Weapon": "Armes",
+      "Armor": "Armures",
+      "Consumable": "Consommable",
+      "Special": "Spécial",
+      "Misc": "Divers"
+    },
+    "statCategory": {
+      "Attack": "Attaque",
+      "Skill": "Compétences",
+      "Defense": "Défense",
+      "Misc": "Autres"
+    },
+    "subcategories": {
+      "else": "Autres"
+    }
+  },
+  "global": {
+    "notEnoughSamples": "NC",
+    "close": "Fermer",
+    "retry": "Réessayer",
+    "selectAll": "Sélectionner Tout",
+    "deselectAll": "Déselectionner Tout",
+    "playerSearchPlaceholder": "Chercher un joueur",
+    "error": {
+      "short": "Oups!",
+      "tryAgainLater": "Merci de réessayer plus tard.",
+      "somethingsWrong": "Le site web a rencontré une erreur. Merci de nous contacter si le problème persiste.",
+      "inMaintenance": "Désolé! Maintenance en cours.",
+      "erServerError": "Erreur de communication avec le serveur de l'API Eternal Return."
+    }
+  },
+  "header": {
+    "nav": {
+      "leaderboard/mmr": "Classement MMR",
+      "leaderboard/artisan": "Classement d'Expérience",
+      "players": "Record",
+      "database": "Base de Données",
+      "database/items": "Catalogue",
+      "route": "Simulateur d'Itinéraire",
+      "characters": "Personnages",
+      "erwi2021": "ERWI 2021"
+    }
+  },
+  "footer": {
+    "contact": "Contact"
+  },
+  "index": {
+    "title": "Eternal Return Informatics",
+    "description": "Informations sur Eternal Return : Statistiques, Simulateur d'Itinéraire automatisé, Catalogue, Classement, Rangs , Niveau, Guides",
+    "ogDescription": "Statistiques, Rangs de personnages, Simulateur d'Itinéraire et Catalogue d'Eternal Return, en un seul coup d'œil",
+    "characterTiers": "Rangs de personnage en Solo Classé",
+    "soloRankLeaderboard": "Classement en Solo Classé"
+  },
+  "route": {
+    "title": "Simulateur d'Itinéraire",
+    "description": "Simulateur d'Itinéraire automatisé pour Eternal Return, vérification d'inventaire, solo, duo, escouade",
+    "shareButton": "Partager",
+    "recentlyShared": "URL copiée",
+    "selectCharacterDefault": "Sélectionner un Personnage",
+    "route": "Route",
+    "routeNumeric": "Zone {{number}}",
+    "characterWeaponModal": {
+      "title": "Sélection du Personnage et de l'Arme"
+    },
+    "deleteConfirm": "Êtes vous sûr? L'Itinéraire actuel sera perdu.",
+    "errr": {
+      "button": "Générer Route",
+      "buttonLoading": "Chargement…",
+      "buttonMaintaining": "Maintenance en cours",
+      "pleaseSetCharacters": "Veuillez sélectionner un Personnage et une Arme.",
+      "setting": {
+        "button": "Options",
+        "partsPreference": "Préférences",
+        "areaCondition": "Zones à visiter"
+      },
+      "result": {
+        "failed": "Échec de la génération de route.",
+        "performance": "A Généré $t(routeCount, { \"count\": {{unit.route}} }) en $t(seconds, { \"count\": {{unit.second}} }).",
+        "isSubItemsVisible": "Montrer les objets intermédiaires",
+        "bestRoutes": "Recommandé",
+        "otherRoutes": "Autres"
+      }
+    },
+    "recommendation": {
+      "foods": "Nourriture",
+      "beverages": "Boisson",
+      "traps": "Piège",
+      "armors": "Objets fabricables sur cette route",
+      "armorsDescription": "Configurez votre Itinéraire et cliquez sur les éléments ci-dessous pour les équiper. Choisir  un article de la même catégorie remplacera l'ancien.",
+      "defaultContent": "Créez votre trajet"
+    },
+    "craftBoard": {
+      "title": "Informations de l'Itinéraire",
+      "showDetail": "Afficher Détails",
+      "equipped": "Équipement",
+      "inventory": "Inventaire",
+      "search": "Chercher Matériaux",
+      "gather": "Matériaux de Récolte/Chasse",
+      "tooltip": {
+        "inventory": "Seuls les objets nécessaires sont pris en compte.",
+        "inventoryOver": "Plus de dix objets sont nécessaires à cet instant"
+      }
+    },
+    "mapBoard": {
+      "options": {
+        "showGatherItem": {
+          "title": "Visibilité des matériaux de recherche",
+          "none": "Aucun",
+          "onlyMe": "Pour Moi",
+          "team": "Tous"
+        },
+        "routeHighlight": {
+          "title": "Montrer Trajet",
+          "onlyMe": "Pour Moi",
+          "team": "Tous"
+        },
+        "showAreaItemCount": {
+          "title": "Nombre total d'objets",
+          "on": "On",
+          "off": "Off"
+        }
+      }
+    }
+  },
+  "characters": {
+    "title": "Personnages",
+    "titleWithCharacter": "{{ queueType }} {{ character }} - Personnages",
+    "description": "Statistiques des Personnages d'Eternal Return, y compris le niveau, les matchups, l'ordre des compétences, les Itinéraires, les préférences d'objets, le taux de victoire, etc.",
+    "descriptionWithCharacter": "{{ queueType }} {{ character }} statistiques incluant le Tier, les matchups, l'ordre des compétences, les Itinéraires, les préférences d'objets, le taux de victoire, etc.",
+    "overall": "Général",
+    "weaponAndCharacter": "Personnage / Arme",
+    "statisticsRange": "Portée",
+    "statisticsRange3Days": "Parties classées dans les trois derniers jours",
+    "statisticsRangeGameVersion": "Parties classés en {{ gameVersion }}",
+    "lastUpdate": "Dernière Mise à jour",
+    "moreButton": "Plus",
+    "subPages": {
+      "overview": "Aperçu",
+      "matchup": "Matchups",
+      "metrics": "Données",
+      "metricsTrend": "Tendance des données",
+      "route": "Itinéraire & Objets",
+      "skill": "Ordre des compétences"
+    },
+    "tierOptions": {
+      "t": "TOP 1000",
+      "a": "Tout",
+      "u": "Platine et Plus",
+      "l": "Or et Moins"
+    },
+    "range": {
+      "3d": "3 derniers Jours",
+      "version": "{{version}}"
+    },
+    "matchup": {
+      "centerDescription": "Ratio de Personnage / Élimination",
+      "averageKill": "Éliminations moyennes : {{averageKill}}",
+      "adventageous": "Avantageux",
+      "disadventageous": "Désavantageux",
+      "notEnoughSamples": "NC (assouplir les conditions pour plus de résultats)"
+    },
+    "metrics": {
+      "averageDeltaMMR": "Changements Moy. de MMR",
+      "rank": "{{rank, ordinal}}",
+      "rankTotalCount": "/ {{totalCount}}",
+      "earlyDeathArea": "Zones de mort précoce",
+      "killerTop3InArea": "TOP 3 des Tueurs",
+      "showDeathMapAll": "Voir la carte complète des morts",
+      "detail": "Données",
+      "deathHeatMap": {
+        "title": "Carte des Morts",
+        "description": "Il s'agit de la carte indiquant quand, où et par qui le personnage est tué. Soyez conscient des tueurs ci-dessous.\nSeuls les trois plus meurtriers sont indiqués sur la carte.",
+        "timePoint": {
+          "all": "Tout",
+          "e": "Early(~5 min.)",
+          "m": "Mid(5~10 min.)",
+          "l": "Late(10~ min.)"
+        }
+      }
+    },
+    "metricsTrend": {
+      "all": "Tous",
+      "summaryDescription": "Jetez un œil à la variation du Tier, du taux de sélection et du taux de victoire du personnage au cours des 30 derniers jours.\nL'effet de chaque patch sera reflété après 3 à 4 jours."
+    },
+    "route": {
+      "summaryDescription": "La tendance peut différer de la réalité puisque seuls les Itinéraires partagés sont collectés.",
+      "description": "La tendance peut différer de la réalité puisque seuls les Itinéraires partagés sont collectés.",
+      "count": "{{count}} fois",
+      "representativeEquipments": "Équipement",
+      "first3area": "3 Premières zones"
+    },
+    "skill": {
+      "summaryDescription": "Les taux de victoire et les %Class Moy. ci-dessous sont généralement plus élevés que les mesures globales\npuisque les exemples ici n'incluent pas les correspondances pour les personnages en dessous du niveau 10.",
+      "description": "Les taux de victoire et les %Class Moy. ci-dessous sont généralement plus élevés que les mesures globales\npuisque les exemples ici n'incluent pas les correspondances pour les personnages en dessous du niveau 10.",
+      "averageDPM": "DPM Moyen"
+    }
+  },
+  "itemSearchBox": {
+    "anySubcategory": "Toutes les catégories",
+    "anyItemOptions": "Toutes les options",
+    "anyItemSkills": "Toutes les compétences d'objet",
+    "searchPlaceholder": "Chercher..."
+  },
+  "players": {
+    "title": "{{name}} - Joueur",
+    "playerNotFound": "Joueur  {{name}} introuvable",
+    "matchEmpty": "Aucune partie trouvée !",
+    "connectionFailed": "Échec de connexion.",
+    "recentUpdateDate": "À jour",
+    "requestUpdate": "Mettre à jour",
+    "inMaintaining": "La mise à jour est en maintenance...",
+    "noPlayRecordShort": "Aucune donnée",
+    "openWidgetModal": "Widget Stream",
+    "widgetModal": {
+      "title": "Widget Stream",
+      "description": "Il s'agit d'un widget affichant votre MMR actuelle pour votre stream. Utilisez-le avec un logiciel de streaming comme OBS ou XSplit.",
+      "windowSizeDescription": "Taille minimum suggérée : 240 x 140(px)",
+      "options": "Options",
+      "informationType": "Information",
+      "informationTypeOptions": {
+        "account": "Rang",
+        "accountAndRecent3Matches": "Rang + 3 dernières parties"
+      },
+      "backgroundType": "Arrière plan",
+      "backgroundTypeOptions": {
+        "tier": "Rang",
+        "halfTransparent": "Noir Semi-Transparent"
+      },
+      "preview": "Prévisualisation",
+      "copyURL": "Copier"
+    },
+    "seasonTab": {
+      "every": "Tout",
+      "rankSeason": "Saison {{seasonNumber}}",
+      "rankPreseason": "Présaison {{seasonNumber}}",
+      "normal": "Normal"
+    },
+    "hourPostfix": "{{hour}} heures",
+    "cannotCalculate": "NC",
+    "rankInPlacement": "En placement",
+    "rankPercentage": "TOP {{percentage}}%",
+    "rankPercentagePrefix": "TOP",
+    "notEnoughSamples": "NC",
+    "totalWins": "Victoires",
+    "rank": "{{rank, ordinal}}",
+    "totalDeal": "Dégâts",
+    "detail": {
+      "notEnoughSamplesToCalculate": "Pas assez d'échantillons à calculer.",
+      "noPlayerData": "Aucune information. Veuillez chercher ce joueur.",
+      "averageMMRDifferencePrefix": "Ma MMR",
+      "averageMMR": "MMR Moyenne",
+      "averageExpGain": "Gain d'EXP moyen",
+      "match": "Données générales",
+      "rank": "Classement",
+      "name": "Joueur",
+      "mmr": "MMR",
+      "routeId": "ID de L'itinéraire",
+      "noRouteIdOfStart": "Itinéraire Privé",
+      "totalDeal": "Dégâts",
+      "equipments": "Équipement",
+      "matchVersion": "Version",
+      "matchId": "ID du Match",
+      "playerKilledMe": "M'a tué",
+      "iKilledPlayer": "Tué par moi",
+      "playerKilledTeammate": "Tué un allié",
+      "teammateKilledPlayer": "Tué par un allié",
+      "killedWickline": "Wickeline",
+      "killedAlpha": "Alpha",
+      "killedOmega": "Oméga",
+      "deadByWildAnimal": "Tué par un animal",
+      "gaveUp": "Abandonné"
+    }
+  },
+  "database": {
+    "title": "Base de Données",
+    "items": {
+      "title": "Catalogue",
+      "description": "Options d'objets d'Eternal Return, descriptions, statistiques, taux de sélection, taux de victoire",
+      "itemTree": "Recette",
+      "charactersUsing": "Personnages utilisés le plus souvent",
+      "pleaseSelectItem": "Veuillez choisir un article.",
+      "noItemMatchCondition": "Pas d'objet"
+    }
+  },
+  "leaderboard": {
+    "playCountWithUnit": "{{count}}\nParties",
+    "mmr": {
+      "title": "Classement MMR",
+      "description": "Eternal Return solo, duo, escouade, classement MMR, meilleurs joueurs, Immortel MMR",
+      "top1": "TOP 1",
+      "top200": "TOP 200",
+      "top1000": "TOP 1000",
+      "mostPickDistributionRange": "Personnage/Arme des meilleurs joueurs {{start}}~{{end}}"
+    },
+    "artisan": {
+      "title": "Classement d'Expérience",
+      "description": "Eternal Return Classement d'Expérience en solo, duo, escouade"
+    }
+  },
+  "doubleSidedVariationChart": {
+    "inactive": "NC",
+    "inactiveMMR": "NC",
+    "event": {
+      "version": "PATCH {{version}}"
+    },
+    "tooltip": {
+      "characterWeapon": "{{characterWeapon}} / {{metrics}}: {{value}}",
+      "mmrFlow": "Dernière MMR: {{last}} (max.: {{max}}, min.: {{min}})"
+    }
+  },
+  "widget": {
+    "playerNotFound": "Joueur Introuvable",
+    "recent3Matches": "3 dernières parties",
+    "nextAutoUpdate": "Mise à jour dans {{time, seconds}}",
+    "updating": "Mise à jour..."
+  },
+  "masteryImprovement": {
+    "average": "Moyenne",
+    "perMinute": "{{number}}/min."
+  },
+  "itemTooltip": {
+    "gather": "Récolte",
+    "monster": "Chasse",
+    "area": "Zone",
+    "supply": "Colis Aérien",
+    "specificCharacterOnly": "Fabricable par {{name}}",
+    "maxStackCount": "Quantité max",
+    "initialCount": "Quantité initiale",
+    "buildsInto": "Transformable en",
+    "bulletCapacity": "Munitions max",
+    "bulletCapacityValue": "{{count}}",
+    "chargeCapacity": "Charges max",
+    "chargeCapacityValue": "{{count}} (recharge : {{chargeTime, seconds}})"
+  },
+  "textTooltip": {
+    "tier": "Le Tier représente la puissance et la popularité du personnage, compte tenu du taux de victoire, le pourcentage de classement moyen, les éliminations, les modifications du MMR et le taux de mortalité. Il peut différer même si le Personnage est identique selon les échantillons.",
+    "perishRate": "Le taux de mortalité représente la fréquence de mort en début de partie, compte tenu de la durée de la partie, le niveau d'arme, les éliminations.",
+    "halfRate": "Le %Class. Moy. représente le classement normalisé du joueur dans un match. Si le pourcentage de classement moyen d'un joueur est de 50 %, cela signifie que le classement moyen est respectivement 9,5e, 5e ou 3,5e en solo, en duo ou en escouade.",
+    "artisan": "Le score d'expérience représente à quel point le personnage a été utilisé par le joueur dans les parties à haut niveau. Contrairement à la MMR, celui-ci ne diminue jamais.",
+    "dpmToCharacter": "Les DPM (dégâts par minute) représentent les dégâts infligés aux autres joueurs par minute."
+  },
+  "tierBadge": {
+    "op": "OP",
+    "up": "RIP",
+    "a": "Expert",
+    "lowUniquePlayers": "< {{lowCutoff}}",
+    "lowUniquePlayersTooltip": "Ces données ont été calculées avec des parties de seulement {{count}} joueurs,\nce qui signifie qu'elles peuvent facilement être influencées par le style de jeu de chaque joueur."
+  },
+  "characterPicker": {
+    "searchPlaceholder": "Chercher...",
+    "statisticsNotAvailable": "Données insuffisantes."
+  },
+  "internalBanner": {
+    "route": {
+      "first": "\"Si seulement je pouvais trouver le trajet optimal pour les objets que je veux !\"",
+      "second": "\"Vais-je manquer de place dans mon inventaire ?\"",
+      "thirdBefore": "La réponse dans le",
+      "thirdStrong": "[Simulateur d'Itinéraire]",
+      "letsgo": "C'est parti"
+    }
+  },
+  "stats": {
+    "trapPower": "Dégâts de piège",
+    "hpRecover": "PV Régén.",
+    "spRecover": "Endurance Régén.",
+    "attackPowerByBuff": "Puissance d'Attaque",
+    "defenseByBuff": "Défense"
+  }
+}
