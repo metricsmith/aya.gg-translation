@@ -2,10 +2,10 @@
   "siteName": "aya.gg",
   "title": "%s - aya.gg",
   "languages": {
-    "ko-KR": "ko",
-    "en-US": "en",
-    "ja-JP": "ja",
-    "fr-FR": "fr"
+    "ko": "한국어",
+    "en": "English",
+    "ja": "日本語",
+    "fr": "Français"
   },
   "unit": {
     "second": "{{count}} seconde",
@@ -27,7 +27,7 @@
     "characterLevel": "Niveau",
     "winRate": "% Vict.",
     "pickRate": "% Joué",
-    "halfRate": "%Class Moy.",
+    "halfRate": "% Class Moy.",
     "perishRate": "% Mortalité",
     "averageRank": "Class Moy.",
     "averageKill": "Élim. Moy.",
@@ -437,7 +437,7 @@
     "route": {
       "first": "\"Si seulement je pouvais trouver le trajet optimal pour les objets que je veux !\"",
       "second": "\"Vais-je manquer de place dans mon inventaire ?\"",
-      "thirdBefore": "La réponse dans le",
+      "thirdBefore": "La réponse dans le ",
       "thirdStrong": "[Simulateur d'Itinéraire]",
       "letsgo": "C'est parti"
     }
